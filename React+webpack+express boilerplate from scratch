@@ -8,6 +8,12 @@ setup babel (install modules, create .babelrc)
 install webpack module
 create js file that will be bundled
 create webpack.config.js
+context > path of src JS files
+entry > entry js file to start bundle
+output > path to output bundle, filename of bundle
+module > loaders: [] > test: /\.js$/ (type of file extension to bundle), exclude (dont bundle node module files), loaders: use loader 'babel'
+resolve > root: [] > 
+
 add npm script to compile (runs webpack)
 add bundle.js to gitignore if uploading on github
 install express modules
