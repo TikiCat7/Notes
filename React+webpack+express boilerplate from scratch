@@ -1,0 +1,21 @@
+React + webpack + express Boilerplate from Scratch
+http://andrewhfarmer.com/build-your-own-starter/#0-intro
+
+make project folder
+npm init -y
+create .gitignore if uploading on github
+setup babel (install modules, create .babelrc)
+install webpack module
+create js file that will be bundled
+create webpack.config.js
+add npm script to compile (runs webpack)
+add bundle.js to gitignore if uploading on github
+install express modules
+create html file that will be served by server
+write server.js
+add npm script to start express server
+install react, react-dom
+create react component file
+edit html file to mount react root component
+
+compile > npm start
